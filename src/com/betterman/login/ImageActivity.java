@@ -65,7 +65,7 @@ public class ImageActivity extends Activity implements OnClickListener {
 		}
 	}
 
-	// 生成QR图
+	// 生成QR图发大水的说法是士大夫到时  
 	private void createImage() {
 		try {
 			QRCodeWriter writer = new QRCodeWriter();
