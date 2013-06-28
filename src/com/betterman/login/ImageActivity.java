@@ -71,8 +71,6 @@ public class ImageActivity extends Activity implements OnClickListener {
 			QRCodeWriter writer = new QRCodeWriter();
 
 			String text = qr_text.getText().toString();
-
-			Log.i(TAG, "生成的文本：" + text);
 			if (text == null || "".equals(text) || text.length() < 1) {
 				return;
 			}
