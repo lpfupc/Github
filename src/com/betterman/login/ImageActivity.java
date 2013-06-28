@@ -111,7 +111,7 @@ public class ImageActivity extends Activity implements OnClickListener {
 	// 解析QR图片
 	private void scanningImage() {
 
-     //ggggggggggggggggggggggggg
+
 		Map<DecodeHintType, String> hints = new HashMap<DecodeHintType, String>();
 		hints.put(DecodeHintType.CHARACTER_SET, "utf-8");
 
